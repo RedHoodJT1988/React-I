@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
+import TodoList from "./Components/TodoList";
 
-const App = () => (
+const App =() => (
   <div>
     <h2>Todo App</h2>
-
-  </div>
+    <TodoList />
+    </div>
 );
 
-export default App;
+export default TodoList;
